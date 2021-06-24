@@ -88,7 +88,7 @@ class _HomepageState extends State<Homepage> {
   Widget build(BuildContext context) {
     final ThemeData _theme = Theme.of(context);
     return Scaffold(
-      resizeToAvoidBottomPadding: false,
+      resizeToAvoidBottomInset: false,
       drawer: AppDrawer(),
       body: SafeArea(
         child: Column(
